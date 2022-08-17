@@ -1,0 +1,19 @@
+TABLE
+
+<table></table>
+<thead>
+<th></th>
+</thead>
+<tbody>
+<tr> <td></td> </tr>
+</tbody>
+<tfoot>
+<tr> <td></td> </tr>
+</tfoot>
+
+FORM
+
+
+<form>
+
+</form>
