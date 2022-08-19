@@ -1,0 +1,32 @@
+.gitlab {
+    height: 100px;
+    width: 200px;
+}
+
+
+
+.size {
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+}
+
+.apple:hover {
+       margin-left: 5px;
+    background-color: black;
+
+}
+
+hr {
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    border-top: dotted 10px;
+    height: 20%;
+    width: 30%;
+    border-left:none;
+    border-bottom:none ;
+    border-right:none;
+
+}

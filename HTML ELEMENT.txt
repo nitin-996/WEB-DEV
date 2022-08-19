@@ -17,3 +17,22 @@ FORM
 <form>
 
 </form>
+
+box model include height,width ,padding , margin
+
+execution priority
+
+1 ID
+2 class
+3 inline
+4 internal
+5 external
+
+we have other display property
+inline            it makes block element a inline element 
+block              it makes inline element a block element
+inline-block            it give both property 
+
+
+display : none           it delete the input of file 
+visibility : hidden           it hidden the file but block is visible
