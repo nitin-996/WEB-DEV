@@ -1,0 +1,68 @@
+
+
+
+table {
+    background: rgb(26, 25, 25);
+}
+
+tr {
+    background-color: rgb(247, 169, 169);
+}
+
+body {
+    background-color: aqua;
+}
+
+/* img {
+    height: 50px;
+
+} */
+
+/* -------------------------hover-------------------------------------- */
+
+.apple:hover {
+
+    background-color: rgb(219, 204, 68);
+
+}
+.gitlab {
+    height: 50px;           /* to give a style to a specific element you should use class in html then to select that class we start it with dot (.) like we did here from Tables file*/
+
+}
+
+.circular {
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+hr {
+    width: 20%;
+    /* used % sign to set that it will be 30 percent of the page */
+    border-style: none;     
+    /* if i don't use border style to none then it would implement it right , left and bottom but due to none property it is applied to only top*/
+    
+    border-top-style: dotted;
+    border-color: rgb(5, 112, 103);
+    height: 0px;
+    border-top-width: 5px;
+}
+
+h1 {
+        color: rgb(239, 18, 247)
+    }
+
+#htmlpreacticefile {
+    color: coral;
+}
+p {color :burlywood;}    
+
+
+    /* css syntax */
+    /* selector {property : value;} */
+    /*  h1      {color    : red }    this is example*/ 
+
+
+
+

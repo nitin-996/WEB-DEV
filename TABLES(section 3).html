@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 
 <body>
+    <!--implemented CSS styling here-->
+    <img class="gitlab circular" src="gitlab-logo.webp" alt="GITLAB image"></img>
+    <img class="apple circular"
+        src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/338/apple-logo_f8ff.png"
+        alt="GITLAB image"></img>
 
     <table cellpadding="5">
         <thead>
             <tr>
-                <th>
-                    <image src="gitlab-logo.webp" size="1px" height="100" alt="GITLAB image"></image>
-                </th>
                 <th>GITLAB TUTORIAL</th>
-
-
             </tr>
 
             <!-- </thead>
@@ -35,13 +40,18 @@
             </tr>
            
         </tfoot> -->
+
+
+
     </table>
+
 
     <p>CLICK on below link to visit gitlab site</p>
     <a href="https://docs.gitlab.com/ee/ci/">Gitlab CI_CD </a>
     <br>
 
-    <table>
+    <table class="AWS">
+
         <br>
         <tr>
             <td><strong>Skill</strong></td>
@@ -63,10 +73,9 @@
     </table>
 
     <!-- TABLE WRITTEN METHOD  -->
-    <hr size="3" color="black">
+    <hr>
     <table>
-        <tr>
-            <td>
+
         <tr>
             <td><strong>Skill</strong></td>
             <td><strong>Rating</strong></td>
@@ -93,7 +102,7 @@
             <td>⭐⭐⭐⭐⭐</td>
         </tr>
     </table>
-    <hr size="3" color="black">
+    <hr>
 
     <table>
         <tr>
@@ -127,23 +136,26 @@
     </table>
 
 
-
+    <br>
     <form action="backend.php" method="post" enctype="text/plain">
-        <label for="username">Enter your username:</label>
-        <input id="username">
-
+        <div>
+            <label for="username">Name:</label>
+            <input id="username">
+        </div>
+        <br>
         <!-- To associate the <label> with an <input> element, you need to give the <input> an id attribute. The <label> then needs a for attribute whose value is the same as the input's id.
 
 Alternatively, you can nest the <input> directly inside the <label>, in which case the for and id attributes are not needed because the association is implicit: -->
 
+        <div>
+            <label for="Email">Email:<input type="email"></label>
+        </div>
         <br>
-        <label for="Email">Email<input type="email"></label>
-
-        <br>
-
-        <textarea id="username" name="username" cols="30" rows="10">
+        <div>
+            <textarea id="username" name="username" cols="30" rows="10">
             type the Gitlab CI-CD script
         </textarea>
+        </div>
         <!--  An id attribute to allow the <textarea> to be associated with a <label> element for accessibility purposes
         A name attribute to set the name of the associated data point submitted to the server when the form is submitted.-->
         <br>
@@ -152,10 +164,6 @@ Alternatively, you can nest the <input> directly inside the <label>, in which ca
         <!-- we use VALUE attribute here to change the submit input type NAME  -->
 
         <!-- when we click on submit it take it to FORM action attribute -->
-
-
-
-
 
     </form>
 

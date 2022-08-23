@@ -17,3 +17,107 @@ FORM
 <form>
 
 </form>
+
+<textarea></textarea>  use it in form element
+
+<lable></lable>
+
+<input>   it is a self closing tag .
+
+
+we can implemrnt css via three method 1. inline   
+
+2.internal    example
+
+<style>
+
+table {
+    background: rgb(26, 25, 25);
+}
+
+tr {
+    background-color: rgb(247, 169, 169);
+}
+
+body {
+    background-color: aqua;
+}
+
+img {
+    height: 50px;
+
+}
+
+hr {
+    width: 20%;
+    /* used % sign to set that it will be 30 percent of the page */
+    border-style: none;     
+    /* if i don't use border style to none then it would implement it right , left and bottom but due to none property it is applied to only top*/
+    
+    border-top-style: dotted;
+    border-color: rgb(5, 112, 103);
+    height: 0px;
+    border-top-width: 5px;
+}
+
+h1 {
+        color: rgb(239, 18, 247)
+    }
+
+</style>
+
+Default Css in browser .
+
+
+ <link rel="stylesheet" href="css/style.css">   to include external css in html we use this tag
+
+
+3.external   example
+
+table {
+    background: rgb(26, 25, 25);
+}
+
+tr {
+    background-color: rgb(247, 169, 169);
+}
+
+body {
+    background-color: aqua;
+}
+
+img {
+    height: 50px;
+
+}
+
+hr {
+    width: 20%;
+    /* used % sign to set that it will be 30 percent of the page */
+    border-style: none;     
+    /* if i don't use border style to none then it would implement it right , left and bottom but due to none property it is applied to only top*/
+    
+    border-top-style: dotted;
+    border-color: rgb(5, 112, 103);
+    height: 0px;
+    border-top-width: 5px;
+}
+
+h1 {
+        color: rgb(239, 18, 247)
+    }
+
+
+
+css priority is first inline 
+               second internal
+                third external
+
+it first execute inline then follow on .
+
+
+ID has more priority than class .
+class has more priority than inline .
+
+
+
