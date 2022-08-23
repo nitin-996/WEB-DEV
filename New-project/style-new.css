@@ -1,20 +1,20 @@
-.middle {
+/* .middle {
     background-color: brown;
 height: 100px;
 width: 200px;
 margin-left: 220px;
 border: 2cm;
 border-color: black;
-}
+} */
 
-
+/* 
 .lower {
     background-color: yellowgreen;
     height: 100px;
     width: 200px;
     margin-left: 420px;
-}
-
+} */
+/* 
 .top {
     background-color: rgb(37, 196, 224);
     width: 200px; 
@@ -26,8 +26,73 @@ border-color: black;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
+} */
+
+/* div.top{
+    background-color: red;
+    
+display: inline-block;
+position: relative;
+
+height: 200px;
+    width: 200px;
+
 }
 
+div.middle{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left:201px;
+    bottom: 204px;
+
+
+}
+
+div.lower{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left:402px;
+    bottom: 404px;
+
+} */
+
+/* display and positioning in css with diffrent method */
+
+/* div.top{
+    background-color: rebeccapurple;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    
+    height: 200px;
+    width: 200px;
+}
+
+div.middle{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+
+    width: 200px;
+
+}
+
+div.lower{
+    background-color: blue;
+    
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    height: 200px;
+
+    width: 200px;
+} */
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;

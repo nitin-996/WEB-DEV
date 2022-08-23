@@ -1,8 +1,8 @@
 .color {
     color : #FF7F3F;
-    width: 100%;
-    height: 60px;
-    padding-left: 40%;
+    
+    height: 70px;
+  
     margin-bottom: 0px;
     background-color: #2A0944;
  
@@ -10,15 +10,38 @@
 }
 
 h1 {
-    margin:0%
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Sacramento', cursive; 
+
+    /* these fonts are downloading from google fonts which links is presented in index.html */
+
+    margin:0 auto 0 auto;
 }
 
 p{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0px;
     margin-bottom: 2px;
 }
 
+/* if you use textalign it will implent on every child but it exclude the one which have width property */
+
+
 .bodycolor {
-    background-color: #256D85;
+    text-align: center;
+    background-color: #f1b9b9;
+    margin: 0 ;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* giving font styling  */
 }
 
+.cloud {
+    top: 10px;
+   position: absolute;
+}
+
+.img {
+    margin-top: 50px;
+    margin-left: 450px;
+    
+}

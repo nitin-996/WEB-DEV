@@ -142,3 +142,19 @@ inline-block            it give both property
 display : none           it delete the input of file 
 visibility : hidden           it hidden the file but block is visible
 >>>>>>> 6dd26ffbea80d47c517781a24ea1bf1b8ed61dff
+
+position: statis         |
+        : relative       | position has four types .which we can use as per own requirement .
+        : absolute       |
+        : fixed          |  
+
+syntax of position
+
+        div {
+  position: relative;
+  left: 30px;
+  
+}
+
+relative positioning means that you are adding a margin relative to where the element .In relative positioning it leaves a block of it .
+absolute position means that you are adding a margin to its parent element .In absolute positioning it directely move the object doesn't leaves a block .
