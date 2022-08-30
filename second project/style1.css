@@ -10,6 +10,7 @@
 }
 
 h1 {
+    font-size: 2rem;
     /* font-family: 'Merriweather', serif; */
     font-family: 'Sacramento', cursive; 
 
@@ -36,7 +37,6 @@ p{
 }
 
 .cloud {
-    top: 10px;
    position: absolute;
 }
 

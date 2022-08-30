@@ -158,3 +158,9 @@ syntax of position
 
 relative positioning means that you are adding a margin relative to where the element .In relative positioning it leaves a block of it .
 absolute position means that you are adding a margin to its parent element .In absolute positioning it directely move the object doesn't leaves a block .
+
+
+16px =100% = 1em                 this <em></em> is diffrent from font size em bcz in fond size it shows the size on the otherhand <em> this used to empahsize the word .
+
+
+when you use em and %(percentage sign) on parrent and seprately on child then it will add the parent size in child as well which made is more larger so to stop this use PX OR IF YOU want still dynamic size then instead of em use rem which does not inherite the size from parent .
