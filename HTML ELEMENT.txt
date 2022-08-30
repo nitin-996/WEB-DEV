@@ -158,3 +158,20 @@ syntax of position
 
 relative positioning means that you are adding a margin relative to where the element .In relative positioning it leaves a block of it .
 absolute position means that you are adding a margin to its parent element .In absolute positioning it directely move the object doesn't leaves a block .
+
+
+
+##############################################################
+BOOTSTRAP
+
+we can add BOOTSTRAP by two main method
+1  . we can copy the URL of BOOTSTRAP from its site.
+2    we can download the BOOTSTRAP and give its path as a ling in our html
+
+to see design for website  see  dribbble.com
+balsamiq.cloud     site to design 
+
+
+a webpage has a 12 column in vertical , you can use this to set navbar size via bootsrap .
+
+IN BOOTSTRAP basically understand how flex , display row , colomn works .
