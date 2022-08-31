@@ -141,7 +141,7 @@ inline-block            it give both property
 
 display : none           it delete the input of file 
 visibility : hidden           it hidden the file but block is visible
->>>>>>> 6dd26ffbea80d47c517781a24ea1bf1b8ed61dff
+
 
 position: statis         |
         : relative       | position has four types .which we can use as per own requirement .
@@ -164,3 +164,24 @@ absolute position means that you are adding a margin to its parent element .In a
 
 
 when you use em and %(percentage sign) on parrent and seprately on child then it will add the parent size in child as well which made is more larger so to stop this use PX OR IF YOU want still dynamic size then instead of em use rem which does not inherite the size from parent .
+
+
+font flot
+font clear
+
+
+BOOTSTRAP
+
+we can add BOOTSTRAP by two main method
+1  . we can copy the URL of BOOTSTRAP from its site.
+2    we can download the BOOTSTRAP and give its path as a ling in our html
+
+to see design for website  see  dribbble.com
+balsamiq.cloud     site to design   
+  fontawesome.com      to get icons
+
+
+a webpage has a 12 column in vertical , you can use this to set navbar size via bootsrap and to setup respective images or text .
+
+
+IN BOOTSTRAP basically understand how flex , display row , colomn works .

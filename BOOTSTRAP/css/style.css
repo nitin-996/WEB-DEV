@@ -3,10 +3,28 @@
     background-color: bisque;
 }
 
-.img-size{
-
-    size: 5rem;
-    height: 2cm;
+.img-apple{
+height: 80%;
+    width: 30%;
+transform: rotate(20deg)
 }
 
 
+#features{
+    padding: 20px 110px;
+}
+
+.padding{
+text-align: center;
+padding: 5%;
+}
+
+
+   
+
+.para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(238, 75, 15);
+
+}
