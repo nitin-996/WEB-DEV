@@ -185,3 +185,10 @@ a webpage has a 12 column in vertical , you can use this to set navbar size via 
 
 
 IN BOOTSTRAP basically understand how flex , display row , colomn works .
+
+bootstrap component 
+
+carousel
+container
+container flex
+

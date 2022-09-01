@@ -4,9 +4,11 @@
 }
 
 .img-apple{
-height: 80%;
+    padding: 5% 10%;
+     height: 70%;
     width: 30%;
 transform: rotate(20deg)
+
 }
 
 
@@ -33,4 +35,12 @@ padding: 5%;
     text-align: center;
 padding: 5%;
 background-color: blanchedalmond;
+}
+
+.icon:hover{
+    color: burlywood;
+}
+
+.icon{
+   margin-bottom: 5%;
 }
