@@ -67,3 +67,11 @@ color: brown;
     border-radius: 100%;
     margin: 5%;
 }
+.carousel-item{
+    padding:  5% 10%;
+   
+}
+
+.copy{
+   background-color:blueviolet;
+}
