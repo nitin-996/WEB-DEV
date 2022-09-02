@@ -1,14 +1,19 @@
 #tittle {
 
     background-color: bisque;
+    padding-bottom: 250px;
 }
 
+/* implement z-index  */
+
 .img-apple{
-    margin-left: 5%;
-  padding-top: 100px;
-     height: 70%;
-    width: 30%;
-transform: rotate(20deg)
+   
+   padding-top: 30px;
+    height: 60%;
+  
+    transform: rotate(20deg);
+    position: absolute;
+  
 
 }
 
@@ -18,7 +23,12 @@ transform: rotate(20deg)
 
 
 #features{
-    padding: 20px 110px;
+    
+   padding: 20px 110px; 
+    background-color: white;
+    position: relative;
+    z-index: 1;
+   
 }
 
 .padding{
@@ -77,4 +87,33 @@ color: brown;
 
 .copy{
    background-color:blueviolet;
+}
+
+#pricing{
+
+    margin: 5%;
+}
+
+/* it makes it resposive in respect of mobile , tablet */
+
+@media (max-width: 988px) {
+    #tittle{
+        text-align: center;
+    }
+    .img-apple {
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+#cta {
+    padding: 7%;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+#footer{text-align: center;
+    background-color: blanchedalmond;
+    padding-bottom: 5%;
 }

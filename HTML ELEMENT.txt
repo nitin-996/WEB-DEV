@@ -143,7 +143,7 @@ display : none           it delete the input of file
 visibility : hidden           it hidden the file but block is visible
 
 
-position: statis         |
+position: static         |
         : relative       | position has four types .which we can use as per own requirement .
         : absolute       |
         : fixed          |  
@@ -193,6 +193,12 @@ container
 container flex
 
 grid in pricing
+
+Z index in css and it only working when position property is present .
+media query in Css
+
+
+
 
 
 
