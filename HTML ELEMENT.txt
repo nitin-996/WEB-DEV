@@ -199,6 +199,9 @@ media query in Css
 
 
 
+.container.tittle   :-- it represent that you have selected single class .
+
+.container .title   :-- it represent that you have selected two class at the same time which you can say that we have selected multiple selectors .
 
 
 
