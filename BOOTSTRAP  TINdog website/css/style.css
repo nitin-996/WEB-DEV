@@ -99,10 +99,12 @@ color: brown;
 @media (max-width: 988px) {
     #tittle{
         text-align: center;
+        padding: 1px !important;
     }
     .img-apple {
         position: static;
         transform: rotate(0);
+    
     }
     
 }
@@ -111,9 +113,15 @@ color: brown;
     padding: 7%;
     text-align: center;
     background-color: blanchedalmond;
+    
 }
 
-#footer{text-align: center;
-    background-color: blanchedalmond;
+#footer{ 
+    
+    text-align: center;
+    background-color: white;
+    margin-top: 5px;
+    padding-top: 5%;
     padding-bottom: 5%;
+    
 }
