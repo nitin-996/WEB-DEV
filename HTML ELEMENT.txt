@@ -208,3 +208,31 @@ media query in Css
 to design site 
 canva.com
 https://collectui.com/
+
+***************************************************************************
+JS (javascript)
+
+Alert();
+typeof();
+prompt();
+
+variable-name.length        it shows the length of variable .
+
+comparission operation
+==    this does not check data type 
+===    this check for data type as well for input
+&&     The logical AND (&&) operator (logical conjunction) for a set of boolean operands will be true if and only if all the operands are true. Otherwise it will be false
+||      The logical OR (||) operator (logical disjunction) for a set of operands is true if and only if one or more of its operands is true.
+!        The logical NOT (!) operator (logical complement, negation) takes truth to falsity and vice versa
+
+
+www.flowchart.io
+
+
+#############################################################################
+DOM 
+
+DOCUMENT OBJECT model
+
+it is like a tree structure , we can manupulate its property via methods
+
