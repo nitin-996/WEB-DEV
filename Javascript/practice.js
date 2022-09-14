@@ -106,7 +106,8 @@ var count = 1;     // count variable
 // this is function , it first push the count variable in output the increase count 1 by 1 then at the last print the output of function .
 function fizzbazz() {
 
-    //while loop added
+    //while loop added  this is saying if count less than 100 then initiate while loop
+    
     while (count <= 100) {
 
         // if loop function is working 
