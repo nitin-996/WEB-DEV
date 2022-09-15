@@ -236,3 +236,15 @@ DOCUMENT OBJECT model
 
 it is like a tree structure , we can manupulate its property via methods
 
+Document.getElementById()
+Document.getElementsByClassName()
+Document.getElementsByTagName()
+Document.getSelection()
+Document.querySelector()
+Document.querySelectorAll()
+
+Document.querySelector("li a");
+this is selecting in hierarchical method and specifically anker tag from list
+
+
+Document.querySelector("li.item");
