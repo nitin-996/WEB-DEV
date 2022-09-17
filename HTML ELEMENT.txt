@@ -236,3 +236,5 @@ DOCUMENT OBJECT model
 
 it is like a tree structure , we can manupulate its property via methods
 
+
+
