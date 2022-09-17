@@ -236,5 +236,40 @@ DOCUMENT OBJECT model
 
 it is like a tree structure , we can manupulate its property via methods
 
+Document.getElementById()
+Document.getElementsByClassName()[].style.color       #  even if you have particuler class , this gives you an array .so you have to select that [] braces even if you unique seperate class
+Document.getElementsByTagName("li")[1].style.color="red"     # via HTML DOM we manuplate the value of html code from javascript code .we write it like this example.         
 
+on the otherhand in css we type color = red   where as we have to pass value as string .
+
+Document.getSelection()
+Document.querySelector()
+Document.querySelectorAll()
+
+
+
+<li class="item"><a href ="https://www.ggogle.in">google</a></li>
+
+Document.querySelector("li a");
+this is selecting in hierarchical method and specifically anker tag from list
+if you are selecting <a> anker tag specifically 
+
+Document.querySelector("li.item");
+if you are selecting class in the same element
+
+
+document.queryselector("button").classlist.add("invisible");
+classlist property add class to button element from JS
+
+
+document.queryselector("button").classlist.remove("invisible");
+
+document.queryselector("button").classlist.toggle("invisible");
+
+
+this below code select anker tag then show attributes which is using in anker tag , then we get anker tag detail after that we change anker tag context .
+dociment.queryselector("a");  
+document.queryselector("a").attributes;
+dociment.quriselector("a").getAttribute("href");
+document.queryselector("a").setAttributes=("href , "https://facebook.com")
 
